@@ -1,0 +1,20 @@
+# --- Estado de Obsidian y plugins (puede contener API keys o logs de chat) ---
+.obsidian/
+.copilot/
+.opencode/
+.agents/
+.claude/
+CLAUDE.md
+
+# --- Carpeta del plugin Copilot: conserva SOLO nuestras skills BSCP ---
+copilot/*
+!copilot/skills/
+copilot/skills/*
+!copilot/skills/bscp-post-lab/
+!copilot/skills/bscp-daily-summary/
+!copilot/skills/bscp-new-lab/
+
+# --- SO / temporales ---
+Thumbs.db
+.DS_Store
+*.tmp

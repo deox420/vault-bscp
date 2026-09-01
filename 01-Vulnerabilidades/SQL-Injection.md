@@ -1,0 +1,35 @@
+---
+tipo: vulnerabilidad
+vuln: sqli
+tags: [bscp, tipo/vulnerabilidad, vuln/sqli]
+niveles: [apprentice, practitioner]
+cheatsheet: "[[CS-SQLi]]"
+academy: https://portswigger.net/web-security/sql-injection
+estado: pendiente
+---
+
+# SQL Injection
+
+## Qué es
+Inyección de SQL: entrada del usuario que se concatena en una consulta y altera su lógica.
+
+## Cómo detectar
+Comilla simple que rompe la query, operadores booleanos con respuestas distintas, y retardos por tiempo.
+
+## Flujo de explotación
+Detectar → determinar contexto y motor → UNION/error/blind → enumerar esquema → extraer credenciales.
+
+## Escalada a impacto
+Robar credenciales de `{{TARGET_USER}}` para iniciar sesión como admin y cumplir el objetivo.
+
+## Gotchas de examen
+Cuida los comentarios según motor (`--`, `#`, `--+`), el número exacto de columnas y el tipo de dato.
+
+## Cheat sheet
+[[CS-SQLi]]
+
+## Labs
+[[_Tracker-SQL-Injection]]
+
+## Enlaces
+- https://portswigger.net/web-security/sql-injection
