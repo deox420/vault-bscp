@@ -8,6 +8,8 @@ tags: [bscp, tipo/moc]
 Punto de entrada del vault. Metodología: [[Metodologia-Examen]] · [[Metodologia-Discovery]].
 Herramientas: [[Burp-Scanner]] · Recursos: [[Enlaces-Utiles]].
 
+> 🔎 **¿No sabes qué vulnerabilidad tienes delante?** → [[Triage-Deteccion]] (señal → sospecha → cheat sheet)
+
 > 🧠 **Sistema de estudio multi-agente:** [[README-Sistema]] · [[Dashboard]] · [[Preferencias]]
 > Agentes: [[Agente-Tutor]] · [[Agente-Examinador]] · [[Agente-Redactor]] · [[Agente-Planificador]]
 

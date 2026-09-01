@@ -1,5 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Generador del vault Obsidian para BSCP. Idempotente: sobrescribe el vault."""
+"""Generador del vault Obsidian para BSCP. Idempotente: sobrescribe el vault.
+
+NOTA: crea SOLO la estructura base (28 temas + cheat sheets + labs + plantillas +
+índice). El sistema de estudio (_Sistema/, _Diario/, 00-Index/Triage-Deteccion.md,
+AGENTS.md) se mantiene aparte y se restaura vía git, no regenerando. La fuente de
+verdad es el vault versionado en git, no este script.
+"""
 import os, shutil
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "..", "..", "..", "..")
@@ -1118,9 +1124,6 @@ moc = f"""{moc_front}
 
 Punto de entrada del vault. Metodología: [[Metodologia-Examen]] · [[Metodologia-Discovery]].
 Herramientas: [[Burp-Scanner]] · Recursos: [[Enlaces-Utiles]].
-
-> 🧠 **Sistema de estudio multi-agente:** [[README-Sistema]] · [[Dashboard]] · [[Preferencias]]
-> Agentes: [[Agente-Tutor]] · [[Agente-Examinador]] · [[Agente-Redactor]] · [[Agente-Planificador]]
 
 ## Vulnerabilidades y cheat sheets
 {vuln_links}
