@@ -1,9 +1,12 @@
 ---
 name: bscp-new-lab
-description: Crear una nota de lab nueva en el vault con el formato correcto y añadirla a su tracker. Úsala cuando la usuaria diga "nuevo lab", "voy a empezar un lab de X", "crea la nota de este lab". Genera el frontmatter y los tags válidos y NO incluye solución, solo el andamiaje y placeholders.
+description: Crear una nota de lab nueva en el vault con el formato correcto y
+  añadirla a su tracker. Úsala cuando la usuaria diga "nuevo lab", "voy a
+  empezar un lab de X", "crea la nota de este lab". Genera el frontmatter y los
+  tags válidos y NO incluye solución, solo el andamiaje y placeholders.
 license: MIT
 metadata:
-  copilot-enabled-agents: claude, codex, opencode
+  copilot-enabled-agents: claude,codex,opencode
 ---
 
 # BSCP · Nueva nota de lab

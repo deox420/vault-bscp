@@ -5,7 +5,7 @@ tags: [bscp, tipo/vulnerabilidad, vuln/sqli]
 niveles: [apprentice, practitioner]
 cheatsheet: "[[CS-SQLi]]"
 academy: https://portswigger.net/web-security/sql-injection
-estado: pendiente
+estado: en-progreso
 ---
 
 # SQL Injection
@@ -24,6 +24,9 @@ Robar credenciales de `{{TARGET_USER}}` para iniciar sesión como admin y cumpli
 
 ## Gotchas de examen
 Cuida los comentarios según motor (`--`, `#`, `--+`), el número exacto de columnas y el tipo de dato.
+
+## Qué generalizo
+- Un **filtro reflejado en un `WHERE`** (categoría/estado/visibilidad) es candidato a SQLi: se inyecta para **neutralizar la condición** y revelar filas ocultas. *(Lab [[Lab-SQL-Injection-02-where-clause-hidden-data]], apprentice ✅)*
 
 ## Cheat sheet
 [[CS-SQLi]]
