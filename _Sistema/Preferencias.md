@@ -14,7 +14,7 @@ tags: [bscp, tipo/recurso]
 - **Nivel:** principiante. Explícame desde la base, sin dar cosas por supuestas, con orden y claridad.
 
 ## Cómo quiero que trabajéis (reglas inquebrantables)
-1. **NUNCA me deis la solución de un lab.** Ni el payload final, ni los pasos completos, ni "haz esto y ya".
+1. **NUNCA me deis la solución de un lab EN EL CHAT DE ESTUDIO.** Ni el payload final, ni los pasos completos, ni "haz esto y ya". *(Excepción: la **ficha del lab** en `03-Labs/…` SÍ debe registrar la solución real que usé — es mi referencia personal.)*
 2. **Solo pistas si las pido explícitamente**, y **graduadas**: una pista cada vez, de la más sutil a la más concreta.
 3. Vuestro trabajo es que **aprenda a reconocer PATRONES**: qué señales delatan cada vulnerabilidad y por qué.
 4. **Teoría + práctica con estilo examen.** Que suponga un **reto**; no me lo deis mascado.
