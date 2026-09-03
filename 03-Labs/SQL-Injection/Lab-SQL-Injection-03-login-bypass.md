@@ -22,10 +22,12 @@ Iniciar sesión como `{{TARGET_USER}}` (administrator) sin la contraseña, media
 - Inyecté para **anular la comprobación de contraseña**: cerrar la cadena, condición siempre verdadera y comentar el resto.
 - La aplicación autenticó como administrador.
 
-## Payload usado
-Plantilla parametrizada (ver [[CS-SQLi]] → "Bypass de login"):
+## Payload usado (solución real)
+En el campo **usuario** del login:
 
-    {{CIERRE}} OR 1=1 {{COMENTARIO}}
+    administrator'--
+
+La contraseña se deja en blanco/cualquiera: `--` comenta la comprobación `AND password='…'`.
 
 ## Qué generalizo
 - **Bypass de login:** cerrar la cadena del parámetro, añadir una condición booleana siempre verdadera (`OR 1=1`) y **comentar** el resto (`--`) para saltar la verificación de contraseña.
