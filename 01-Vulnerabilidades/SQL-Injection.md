@@ -27,6 +27,7 @@ Cuida los comentarios según motor (`--`, `#`, `--+`), el número exacto de colu
 
 ## Qué generalizo
 - Un **filtro reflejado en un `WHERE`** (categoría/estado/visibilidad) es candidato a SQLi: se inyecta para **neutralizar la condición** y revelar filas ocultas. *(Lab [[Lab-SQL-Injection-02-where-clause-hidden-data]], apprentice ✅)*
+- **Bypass de login:** cerrar la cadena, `OR 1=1` y comentar el resto (`--`) salta la comprobación de contraseña y entra como `{{TARGET_USER}}`. *(Lab [[Lab-SQL-Injection-03-login-bypass]], apprentice ✅)*
 
 ## Cheat sheet
 [[CS-SQLi]]
