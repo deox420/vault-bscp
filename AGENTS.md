@@ -42,7 +42,7 @@ tags: [bscp, tipo/recurso]
 
 ## Rutinas automáticas (skills) — disparadores
 Estas rutinas se ejecutan solas al detectar la frase; si la skill no estuviera disponible, sigue sus mismos pasos:
-- "terminé/resolví el lab…" → skill **bscp-post-lab** (actualiza estado, "Qué generalizo", checklist, tracker y progreso).
+- **Indico que he RESUELTO un lab** — "he resuelto el lab", "resolví/acabé/completé el lab", "márcalo como resuelto", o **pego el texto de un lab de PortSwigger con "LAB Solved"/"Solved"** (sin pedir explicación) → **ejecuta bscp-post-lab y ACTUALIZA las notas** (crea la nota del lab como resuelto, sube el estado del tema, "Qué generalizo", tracker y progreso). No te limites a explicar. Si en el mismo mensaje pido explicación, enseña primero y ofrece registrarlo al final.
 - "resume el día / cierra el día / diario de hoy" → skill **bscp-daily-summary** (escribe en `_Diario/`).
 - "nuevo lab / crea la nota de este lab" → skill **bscp-new-lab** (andamiaje de nota + tracker).
 Todas: sin soluciones, con placeholders, mostrando el cambio antes de guardar.
