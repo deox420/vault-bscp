@@ -17,9 +17,18 @@ Obtener la cadena completa que muestra la versión y el tipo de la base de datos
 - 1-acceso
 
 ## Pasos realizados
-- Capturé la petición `GET /filter?category=…` con Burp Suite.
-- Determiné que la consulta original devuelve **2 columnas** mediante pruebas `ORDER BY`.
-- Construí una inyección `UNION SELECT` con `NULL` en la segunda columna para validar el número de columnas.
+- Capturé la petición original con Burp Suite (por ejemplo `GET /filter?category=Corporate+gifts HTTP/2`).
+- Realicé pruebas `ORDER BY` incrementando el índice mediante peticiones como:
+  ```
+  GET /filter?category=Corporate+gifts+ORDER+BY+1--+ HTTP/2
+  GET /filter?category=Corporate+gifts+ORDER+BY+2--+ HTTP/2
+  ```
+  El último que funcionó sin error fue `1` y `2`; al probar `ORDER BY 3--` el servidor devolvió un error interno, lo que indica que la consulta original selecciona **2 columnas**.
+- Confirmé el número de columnas creando una UNION con `NULL,NULL` (sin usar la tabla `dual`) y enviando una petición como:
+  ```
+  GET /filter?category=Corporate+gifts+UNION+SELECT+NULL,NULL--+ HTTP/2
+  ```
+  La respuesta mostró una fila extra, validando que la consulta tiene 2 columnas.
 - Identifiqué que la **primera columna** era la que la UI mostraba (prueba con `'X'`).
 - Sustituí esa columna por una sub‑consulta que concatena todas las filas de `v$version` usando `LISTAGG` y `CHR(10)`, logrando que la respuesta incluya todas las líneas de la versión.
 - La petición final que resolvió el lab fue:
