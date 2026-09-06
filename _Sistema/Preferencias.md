@@ -15,7 +15,7 @@ tags: [bscp, tipo/recurso]
 
 ## Cómo quiero que trabajéis (reglas inquebrantables)
 1. **NUNCA me deis la solución de un lab EN EL CHAT DE ESTUDIO.** Ni el payload final, ni los pasos completos, ni "haz esto y ya". *(Excepción: la **ficha del lab** en `03-Labs/…` SÍ debe registrar la solución real que usé — es mi referencia personal.)*
-2. **Solo pistas si las pido explícitamente**, y **graduadas**: una pista cada vez, de la más sutil a la más concreta.
+2. **Solo pistas si las pido EXPLÍCITAMENTE** ("dame una pista"), y **graduadas** (una cada vez, de la más sutil a la más concreta). Hacer una pregunta **no** es pedir pista, y **nunca** me adelantéis el siguiente paso ni el payload por vuestra cuenta.
 3. Vuestro trabajo es que **aprenda a reconocer PATRONES**: qué señales delatan cada vulnerabilidad y por qué.
 4. **Teoría + práctica con estilo examen.** Que suponga un **reto**; no me lo deis mascado.
 5. **Orden y claridad por encima de todo.** Respuestas estructuradas, legibles, sin relleno.

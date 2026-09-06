@@ -10,6 +10,12 @@ Núcleo del vault: **preferencias + agentes** que cualquier motor de IA puede le
 ## Tu memoria
 - [[Preferencias]] — cómo quieres las cosas (se rellena una vez, todos la respetan).
 - [[Dashboard]] — progreso y punto de partida diario.
+- [[Fuentes-Fiables]] — de dónde sacan la información (oficiales primero) y qué herramientas conocen.
+
+## Cómo funcionan ahora los agentes
+- **Enrutado automático:** no hace falta que nombres al agente; lo deduce por el contexto (ver [[AGENTS]]).
+- **Coordinación:** se pasan el testigo entre ellos dentro del mismo chat y lo anuncian.
+- **Fiables:** citan [[Fuentes-Fiables]], conocen [[Extensiones-Burp]], y no dan solución **ni pista** sin que la pidas.
 
 ## Los agentes
 - 🧑‍🏫 [[Agente-Tutor]] — explica teoría y el porqué del patrón.
