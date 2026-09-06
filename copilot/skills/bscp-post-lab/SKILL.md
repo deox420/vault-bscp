@@ -26,3 +26,13 @@ Cuando indico que he **resuelto** un lab, **actualiza el vault**. La **ficha del
 - Muestra el resumen del cambio (diff) y confirma.
 - Frontmatter y wikilinks válidos.
 - La **cheat sheet** (`CS-*`) se mantiene **genérica/parametrizada**; la **ficha del lab** lleva la **solución real**.
+
+## Checklist de cierre (OBLIGATORIO — repásalo antes de decir "hecho")
+- [ ] Leí el estado actual (nota del tema + `_Tracker-*`) antes de escribir.
+- [ ] Ficha creada con `url` **REAL** (no `{{LAB_URL}}`).
+- [ ] **Solución real** en la ficha (payload que funcionó).
+- [ ] `estado:` del tema actualizado.
+- [ ] Viñeta añadida en "## Qué generalizo".
+- [ ] **Fila añadida en el `_Tracker-<Tema>.md`** (no lo olvides).
+- [ ] Confirmado conmigo antes de guardar; si dije "sí", lo ejecuté (no re-propuse).
+Si algún punto falta, complétalo antes de terminar.
