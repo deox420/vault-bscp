@@ -20,6 +20,7 @@ tags: [bscp, tipo/recurso]
 
 ## Extensiones útiles
 - HTTP Request Smuggler, Param Miner, JWT Editor, InQL, DOM Invader, Turbo Intruder.
+- Guía de uso para el examen → [[Extensiones-Burp]].
 
 ## Enlaces
 - [[MOC-BSCP]]
