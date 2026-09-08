@@ -8,7 +8,7 @@ url: https://portswigger.net/web-security/sql-injection/examining-the-database/l
 estado: resuelto
 ---
 
-# SQL Injection · Lab 06 — Listing database contents on non-Oracle databases (practitioner) ✅
+# SQL Injection · Lab 07 — Listing database contents on non-Oracle databases (practitioner) ✅
 
 ## Objetivo
 Mostrar los contenidos (nombre de tablas, columnas y datos) de la base de datos que **no es Oracle** mediante una vulnerabilidad SQL Injection en el filtro de categoría de productos.

@@ -8,7 +8,7 @@ url: https://portswigger.net/web-security/sql-injection/examining-the-database/l
 estado: resuelto
 ---
 
-# SQL Injection · Lab 05 — MySQL & Microsoft DB version (practitioner) ✅
+# SQL Injection · Lab 06 — MySQL & Microsoft DB version (practitioner) ✅
 
 ## Objetivo
 Obtener el tipo y la versión del motor de base de datos (MySQL o Microsoft SQL Server) mediante una inyección UNION en el filtro de categoría.

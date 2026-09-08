@@ -8,7 +8,7 @@ url: https://portswigger.net/web-security/sql-injection/lab-retrieving-data-from
 estado: resuelto
 ---
 
-# SQL Injection · Lab 09 — Retrieving data from other tables (practitioner) ✅
+# SQL Injection · Lab 04 — Retrieving data from other tables (practitioner) ✅
 
 ## Objetivo
 Extraer datos de otras tablas de la base de datos (usuarios y contraseñas) mediante un ataque UNION.

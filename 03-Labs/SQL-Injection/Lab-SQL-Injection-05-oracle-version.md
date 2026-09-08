@@ -8,7 +8,7 @@ url: https://portswigger.net/web-security/sql-injection/examining-the-database/l
 estado: resuelto
 ---
 
-# SQL Injection · Lab 04 — Oracle DB version (practitioner) ✅
+# SQL Injection · Lab 05 — Oracle DB version (practitioner) ✅
 
 ## Objetivo
 Mostrar la versión/tipo de la base de datos (Oracle) mediante un ataque UNION en el filtro de categoría.
