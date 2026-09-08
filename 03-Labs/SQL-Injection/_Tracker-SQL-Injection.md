@@ -17,3 +17,4 @@ Registro de progreso de labs de SQL Injection. Relacionada: [[SQL-Injection]] ·
 | [[Lab-SQL-Injection-05-mysql-microsoft-version]] | practitioner | 1-acceso | resuelto | ✅ MySQL & Microsoft DB version (2026-09-08) |
 | [[Lab-SQL-Injection-06-listing-database-contents-non-oracle]] | practitioner | 1-acceso | resuelto | ✅ Listado de contenido (non-Oracle) (2026-09-08) |
 | [[Lab-SQL-Injection-07-listing-database-contents-oracle]] | practitioner | 1-acceso | resuelto | ✅ Listado de contenido (Oracle) (2026-09-08) |
+| [[Lab-SQL-Injection-09-retrieving-data-from-other-tables]] | practitioner | 1-acceso | resuelto | ✅ Recuperar datos de otras tablas (2026-09-08) |
