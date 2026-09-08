@@ -72,5 +72,6 @@ Volcar credenciales de {{TARGET_USER}} → login → panel admin → leer {{SECR
 - [ ] Escalé a acceso admin
 
 ## Referencias
+- **Sintaxis por motor (Oracle/MSSQL/PostgreSQL/MySQL)** → [[SQLi-Referencia-Motores]]
 - https://portswigger.net/web-security/sql-injection
 - https://portswigger.net/web-security/sql-injection/cheat-sheet
