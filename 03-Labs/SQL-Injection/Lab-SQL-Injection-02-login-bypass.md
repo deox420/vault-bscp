@@ -8,7 +8,7 @@ url: https://portswigger.net/web-security/sql-injection/lab-login-bypass
 estado: resuelto
 ---
 
-# SQL Injection · Lab 03 — Login bypass (apprentice) ✅
+# SQL Injection · Lab 02 — Login bypass (apprentice) ✅
 
 ## Objetivo
 Iniciar sesión como `{{TARGET_USER}}` (administrator) sin la contraseña, mediante SQLi en la función de login.

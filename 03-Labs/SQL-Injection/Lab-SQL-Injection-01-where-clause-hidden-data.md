@@ -8,7 +8,7 @@ url: https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data
 estado: resuelto
 ---
 
-# SQL Injection · Lab 02 — WHERE clause, retrieval of hidden data (apprentice) ✅
+# SQL Injection · Lab 01 — WHERE clause, retrieval of hidden data (apprentice) ✅
 
 ## Objetivo
 Revelar filas que la app intenta ocultar manipulando un filtro que acaba en una cláusula `WHERE`.
