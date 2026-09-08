@@ -3,47 +3,44 @@ tipo: moc
 tags: [bscp, tipo/moc]
 ---
 
-# 📊 Dashboard de estudio · BSCP
+# 📊 Dashboard · BSCP
 
-Portada de progreso. Punto de partida diario. Sistema: [[README-Sistema]] · Preferencias: [[Preferencias]].
+Página única de **progreso + arranque diario**. Sistema: [[README-Sistema]] · Preferencias: [[Preferencias]] · Índice: [[MOC-BSCP]].
 
-## Progreso por tema (Dataview)
+## Nivel en la Academy (widget de PortSwigger — manual)
+> Última actualización: 2026-09-08. Pégame el widget y lo actualizo (no se sincroniza solo).
+
+| Nivel | Hechos | Total |
+|---|---|---|
+| Apprentice | 2 | 61 |
+| Practitioner | 8 | 173 |
+| Expert | 0 | 39 |
+| **Global** | **10** | **273 (3%)** |
+
+Nivel actual: **NEWBIE** → 59 labs para *Apprentice*.
+
+## Labs resueltos (automático, por fecha)
 ```dataview
-TABLE WITHOUT ID link(file.link, vuln) AS "Tema", estado, cheatsheet AS "Cheat sheet"
+TABLE WITHOUT ID fecha AS "Fecha", file.link AS "Lab", vuln AS "Tema", nivel AS "Nivel"
+FROM "03-Labs"
+WHERE tipo = "lab" AND estado = "resuelto"
+SORT fecha DESC
+```
+
+## Estado por tema (automático)
+```dataview
+TABLE WITHOUT ID link(file.link, vuln) AS "Tema", estado AS "Estado"
 FROM "01-Vulnerabilidades"
 WHERE tipo = "vulnerabilidad"
 SORT estado ASC, file.name ASC
 ```
 
-## Resumen de estados
-```dataview
-TABLE length(rows) AS "Nº temas"
-FROM "01-Vulnerabilidades"
-WHERE tipo = "vulnerabilidad"
-GROUP BY estado
-```
-
-## Labs por estado
-```dataview
-TABLE WITHOUT ID file.link AS "Lab", vuln, nivel, fase
-FROM "03-Labs"
-WHERE tipo = "lab"
-SORT estado ASC, vuln ASC
-```
-
-## Tabla de respaldo (si no tienes Dataview)
-> Cambia el estado a mano en el frontmatter de cada nota de `01-Vulnerabilidades/`.
-> Estados: `pendiente` · `en-progreso` · `dominado`.
-
-- Punto de entrada de temas: [[MOC-BSCP]]
-- Metodología: [[Metodologia-Examen]] · [[Metodologia-Discovery]]
-
-## Progreso Academy
-- Panel espejo del widget de PortSwigger: [[Progreso-Academy]].
-
 ## Empezar ahora
-1. Abre el [[Agente-Planificador]] y pídele el siguiente tema.
-2. Estudia con el [[Agente-Tutor]].
-3. Practica pegando un lab en bruto al [[Agente-Examinador]].
-4. Ordena lo aprendido con el [[Agente-Redactor]].
-5. Al final del día, resume con el [[Agente-Diario]].
+1. [[Agente-Planificador]] → siguiente tema.
+2. [[Agente-Tutor]] → estudia el patrón.
+3. [[Agente-Examinador]] → pega un lab en bruto.
+4. [[Agente-Redactor]] → ordena lo aprendido.
+5. [[Agente-Diario]] → cierra el día.
+
+## Atajos
+- [[Triage-Deteccion]] · [[Metodologia-Examen]] · [[Burp-Scanner]] · [[Extensiones-Burp]]

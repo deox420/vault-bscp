@@ -36,7 +36,7 @@ Lo que se repite ya está automatizado (en `copilot/skills/`). Se disparan solas
 - **Conversaciones**: se autoguardan como notas (carpeta `copilot/`).
 - **Skills** del plugin: viven en la carpeta del plugin dentro del vault.
 - **Agentes**: aquí, en `_Sistema/Agentes/`.
-- **Progreso**: [[Progreso-Academy]] · **Diario**: carpeta `_Diario/`.
+- **Progreso**: [[Dashboard]] · **Diario**: carpeta `_Diario/`.
 - Todo enlazado desde [[MOC-BSCP]] y [[Dashboard]] → un solo cuerpo navegable.
 
 ## Regla de oro del sistema

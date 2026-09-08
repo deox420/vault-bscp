@@ -16,7 +16,7 @@ Convierte la sesión en una nota diaria enlazada (base del segundo cerebro). **R
    - `## Qué estudié` — temas y labs, con wikilinks.
    - `## Qué aprendí` — 3-5 viñetas de patrones/señales reutilizables.
    - `## Dudas abiertas` — lo que quedó a medias.
-   - `## Progreso` — qué `estado` cambió; enlaza `[[Progreso-Academy]]`.
+   - `## Progreso` — qué `estado` cambió; enlaza `[[Dashboard]]`.
    - `## Plan de mañana` — 1-3 pasos (coordina con el Planificador).
 3. Enlaza el día anterior si existe, para encadenar el diario.
 

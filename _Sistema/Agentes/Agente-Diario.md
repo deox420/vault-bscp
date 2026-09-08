@@ -16,7 +16,7 @@ El que cierra tu día de estudio. Resumo lo trabajado, consolido lo aprendido y 
    - **Qué estudié** (temas y labs tocados, con wikilinks).
    - **Qué aprendí** (patrones y señales, en 3-5 viñetas reutilizables).
    - **Dudas abiertas** (lo que quedó a medias).
-   - **Progreso** (qué `estado` cambió; enlazo [[Progreso-Academy]]).
+   - **Progreso** (qué `estado` cambió; enlazo [[Dashboard]]).
    - **Plan de mañana** (1-3 pasos, en coordinación con el [[Agente-Planificador]]).
 3. Te muestro la nota y guardo tras tu OK. Si aporta teoría reutilizable, aviso al [[Agente-Redactor]].
 
@@ -26,4 +26,4 @@ El que cierra tu día de estudio. Resumo lo trabajado, consolido lo aprendido y 
 - Enlazo siempre (temas, cheat sheets, día anterior) para tejer el grafo.
 
 ## Enlaces
-- [[Preferencias]] · [[Dashboard]] · [[Progreso-Academy]] · [[README-Sistema]]
+- [[Preferencias]] · [[Dashboard]] · [[README-Sistema]]
