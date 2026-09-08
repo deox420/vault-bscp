@@ -9,18 +9,18 @@ Espejo **propio** del widget "Track your progress" de PortSwigger, dentro del va
 No se sincroniza solo con tu cuenta (haría falta iniciar sesión ahí); lo llevamos aquí a mano / con el [[Agente-Planificador]] y el [[Agente-Diario]].
 
 ## Tu nivel
-- Nivel actual: **NEWBIE** → resuelve 60 labs para llegar a *Apprentice*.
-- Actualiza esta línea a medida que subes.
+- Nivel actual: **NEWBIE** → resuelve **59 labs más** para llegar a *Apprentice*.
+- Actualízalo cuando cambie tu widget de PortSwigger (no se sincroniza solo).
 
-## Marcadores por nivel (rellena los "hechos")
-> Totales oficiales de la Academy a fecha de la captura. Anota tus resueltos.
+## Marcadores por nivel (última actualización: 2026-09-08)
+> Totales oficiales de la Academy. Copia aquí los "hechos" de tu widget.
 
 | Nivel | Hechos | Total | % |
 |---|---|---|---|
-| Apprentice | 1 | 61 | ~2% |
-| Practitioner | 0 | 173 | 0% |
+| Apprentice | 2 | 61 | ~3% |
+| Practitioner | 8 | 173 | ~5% |
 | Expert | 0 | 39 | 0% |
-| **Global** | **1** | **273** | **~0%** |
+| **Global** | **10** | **273** | **~3%** |
 
 ## Progreso real en el vault (Dataview, automático)
 Cuenta tus notas de lab por estado. Crece según el [[Agente-Redactor]] añade labs.
