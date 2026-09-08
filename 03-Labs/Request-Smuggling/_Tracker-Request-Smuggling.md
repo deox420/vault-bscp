@@ -10,4 +10,3 @@ Registro de progreso de labs de Request Smuggling. Relacionada: [[Request-Smuggl
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-Request-Smuggling-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

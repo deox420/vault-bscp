@@ -10,4 +10,3 @@ Registro de progreso de labs de Authentication. Relacionada: [[Authentication]] 
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-Authentication-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

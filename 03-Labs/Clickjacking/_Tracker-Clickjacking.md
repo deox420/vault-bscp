@@ -10,4 +10,3 @@ Registro de progreso de labs de Clickjacking. Relacionada: [[Clickjacking]] · C
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-Clickjacking-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

@@ -10,4 +10,3 @@ Registro de progreso de labs de API Testing. Relacionada: [[API-Testing]] · Che
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-API-Testing-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

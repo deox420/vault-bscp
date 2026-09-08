@@ -10,4 +10,3 @@ Registro de progreso de labs de JWT. Relacionada: [[JWT]] · Cheat sheet: [[CS-J
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-JWT-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

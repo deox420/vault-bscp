@@ -10,4 +10,3 @@ Registro de progreso de labs de Business Logic. Relacionada: [[Business-Logic]] 
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-Business-Logic-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

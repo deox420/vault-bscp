@@ -10,4 +10,3 @@ Registro de progreso de labs de Information Disclosure. Relacionada: [[Informati
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-Information-Disclosure-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

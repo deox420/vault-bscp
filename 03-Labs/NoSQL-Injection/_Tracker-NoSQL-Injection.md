@@ -10,4 +10,3 @@ Registro de progreso de labs de NoSQL Injection. Relacionada: [[NoSQL-Injection]
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-NoSQL-Injection-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

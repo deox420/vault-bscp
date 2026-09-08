@@ -10,4 +10,3 @@ Registro de progreso de labs de CORS. Relacionada: [[CORS]] · Cheat sheet: [[CS
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-CORS-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

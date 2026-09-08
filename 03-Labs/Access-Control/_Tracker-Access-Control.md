@@ -10,4 +10,3 @@ Registro de progreso de labs de Access Control. Relacionada: [[Access-Control]] 
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-Access-Control-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

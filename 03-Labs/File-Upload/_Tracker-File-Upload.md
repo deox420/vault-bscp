@@ -10,4 +10,3 @@ Registro de progreso de labs de File Upload. Relacionada: [[File-Upload]] · Che
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-File-Upload-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

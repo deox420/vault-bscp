@@ -10,4 +10,3 @@ Registro de progreso de labs de SSRF. Relacionada: [[SSRF]] · Cheat sheet: [[CS
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-SSRF-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

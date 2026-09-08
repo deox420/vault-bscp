@@ -10,4 +10,3 @@ Registro de progreso de labs de DOM-based. Relacionada: [[DOM-Based]] · Cheat s
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-DOM-Based-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |

@@ -10,4 +10,3 @@ Registro de progreso de labs de Host Header. Relacionada: [[Host-Header]] · Che
 
 | Lab | Nivel | Fase | Estado | Notas |
 |---|---|---|---|---|
-| [[Lab-Host-Header-01-ejemplo-base]] | practitioner | 1-acceso | pendiente | Ejemplo base parametrizado |
