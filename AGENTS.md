@@ -28,7 +28,8 @@ Errores que YA han pasado; corrígelos siempre:
    - **Redactor / post-lab** → la nota del tema, su `_Tracker-*` y su `CS-*`.
    - **Diario** → notas/chat recientes + `Dashboard` + `Progreso-Academy`.
 2. **Completa TODOS los pasos, nunca a medias.** Al registrar un lab: ficha creada · `url` **REAL** (jamás `{{LAB_URL}}`) · solución real en la ficha · `estado:` del tema · "Qué generalizo" · **fila en el `_Tracker-*`**. Repasa la lista antes de decir "hecho".
-3. **Cierra el bucle:** si propongo un cambio y confirmo ("sí"), **ejecútalo**; no vuelvas a proponer lo mismo.
+3. **Cierra el bucle (autonomía):** registra/edita con **UNA sola confirmación**; tras mi "sí" **ejecuta todo de golpe** y **NO vuelvas a preguntar** "¿quieres que registre?". Una pregunta, no dos.
+7. **Nombres/enlaces sin fallos:** guiones **SOLO ASCII `-`** (nunca `‑`/`–`/`—`); el `NN` del lab es el **siguiente número libre** de la carpeta (nunca duplicado); el wikilink coincide **exacto** con el nombre del fichero. No te auto-enlaces.
 4. **Ni solución ni pista sin que la pida** (ver guardarraíl); no adelantes pasos.
 5. **Cita [[Fuentes-Fiables]]; no inventes.** Si no lo sabes, dilo y enlaza la fuente.
 6. **Autochequeo final** antes de enviar: ¿leí el estado?, ¿completé todos los pasos?, ¿URL real?, ¿respeté el guardarraíl?, ¿cité fuente?
