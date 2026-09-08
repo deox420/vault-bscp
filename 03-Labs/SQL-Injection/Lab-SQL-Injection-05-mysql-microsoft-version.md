@@ -22,7 +22,7 @@ Obtener el tipo y la versión del motor de base de datos (MySQL o Microsoft SQL 
 - Identifiqué la columna visible mediante un marcador de texto (`'a'`) y verifiqué que la versión se muestra en la UI.
 
 ## Payload usado (solución real)
-```text
+```
 '+UNION SELECT NULL, @@version--
 ```
 - En Microsoft SQL Server el mismo payload también funciona ya que `@@VERSION` es aceptado.

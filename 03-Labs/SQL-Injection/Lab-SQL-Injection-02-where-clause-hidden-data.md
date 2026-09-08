@@ -24,7 +24,9 @@ Revelar filas que la app intenta ocultar manipulando un filtro que acaba en una 
 ## Payload usado (solución real)
 En el filtro de categoría (parámetro `category`):
 
-    '+OR+1=1--
+```
+'+OR+1=1--
+```
 
 También sirve para una categoría concreta: `Gifts'--` (comenta el `AND released = 1` y muestra los no publicados).
 

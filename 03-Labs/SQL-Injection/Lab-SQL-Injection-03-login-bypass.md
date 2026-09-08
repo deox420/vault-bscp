@@ -25,7 +25,9 @@ Iniciar sesión como `{{TARGET_USER}}` (administrator) sin la contraseña, media
 ## Payload usado (solución real)
 En el campo **usuario** del login:
 
-    administrator'--
+```
+administrator'--
+```
 
 La contraseña se deja en blanco/cualquiera: `--` comenta la comprobación `AND password='…'`.
 
