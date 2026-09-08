@@ -6,6 +6,8 @@ tags: [bscp, tipo/lab, vuln/sqli, nivel/practitioner, estado/resuelto]
 fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-non-oracle
 estado: resuelto
+orden: 70
+fecha: 2026-09-08
 ---
 
 # SQL Injection · Lab 07 — Listing database contents on non-Oracle databases (practitioner) ✅

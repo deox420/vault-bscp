@@ -6,6 +6,8 @@ tags: [bscp, tipo/lab, vuln/sqli, nivel/apprentice, estado/resuelto]
 fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/lab-login-bypass
 estado: resuelto
+orden: 20
+fecha: 2026-09-03
 ---
 
 # SQL Injection · Lab 02 — Login bypass (apprentice) ✅

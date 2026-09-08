@@ -6,6 +6,8 @@ tags: [bscp, tipo/lab, vuln/sqli, nivel/practitioner, estado/resuelto]
 fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft
 estado: resuelto
+orden: 60
+fecha: 2026-09-08
 ---
 
 # SQL Injection · Lab 06 — MySQL & Microsoft DB version (practitioner) ✅

@@ -6,6 +6,8 @@ tags: [bscp, tipo/lab, vuln/sqli, nivel/practitioner, estado/resuelto]
 fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-oracle
 estado: resuelto
+orden: 50
+fecha: 2026-09-03
 ---
 
 # SQL Injection · Lab 05 — Oracle DB version (practitioner) ✅

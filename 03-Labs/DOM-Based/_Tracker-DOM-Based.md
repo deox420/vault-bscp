@@ -6,7 +6,12 @@ tags: [bscp, tipo/moc, vuln/dom]
 
 # Tracker · DOM-based
 
-Registro de progreso de labs de DOM-based. Relacionada: [[DOM-Based]] · Cheat sheet: [[CS-DOM]].
+Registro de progreso. Relacionada: [[DOM-Based]] · Cheat sheet: [[CS-DOM]].
+Ordenado por **fecha de realización** (`fecha`); `orden` (ruta de aprendizaje) como desempate. Edita esos campos, no renombres ficheros.
 
-| Lab | Nivel | Fase | Estado | Notas |
-|---|---|---|---|---|
+```dataview
+TABLE WITHOUT ID fecha AS "Fecha", file.link AS "Lab", nivel AS "Nivel", estado AS "Estado"
+FROM "03-Labs/DOM-Based"
+WHERE tipo = "lab"
+SORT fecha ASC, orden ASC
+```
