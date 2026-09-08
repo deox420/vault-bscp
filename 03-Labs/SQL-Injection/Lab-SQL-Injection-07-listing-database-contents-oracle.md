@@ -7,7 +7,8 @@ fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-oracle
 estado: resuelto
 ---
-# SQL Injection · Lab 07 — Listing database contents on Oracle ✅
+
+# SQL Injection · Lab 07 — Listing database contents on Oracle (practitioner) ✅
 
 ## Objetivo
 Mostrar los contenidos (nombre de tablas, columnas y datos) de la base de datos Oracle mediante una vulnerabilidad SQL Injection en el filtro de categoría de productos.
