@@ -23,7 +23,7 @@ Cuando indico que he **resuelto** un lab, **actualiza el vault** de una vez. La 
 ## Pasos (no dejes ninguno a medias)
 0. **Extrae del texto**: título, `nivel` (apprentice/practitioner) y tema → carpeta `03-Labs/<Tema>/`.
 1. **Elige NN** = siguiente libre de la carpeta (ver reglas de arriba).
-2. **Crea la ficha** `03-Labs/<Tema>/Lab-<Tema>-NN-<slug>.md`: frontmatter válido, `estado: resuelto`, tag `estado/resuelto`, **`url` = URL REAL** (nunca `{{LAB_URL}}`). Secciones: `## Objetivo`, `## Fase(s)`, `## Pasos realizados`, `## Payload usado (solución real)` (el payload literal que funcionó), `## Qué generalizo` (el patrón), `## Enlace academy`.
+2. **Crea la ficha** `03-Labs/<Tema>/Lab-<Tema>-NN-<slug>.md`: frontmatter válido, `estado: resuelto`, tag `estado/resuelto`, **`url` = URL REAL** (nunca `{{LAB_URL}}`). Secciones: `## Objetivo`, `## Fase(s)`, `## Pasos realizados`, `## Payload usado (solución real)` (el payload literal que funcionó, **en un bloque de código cercado con tres backticks**, sin etiqueta de lenguaje), `## Qué generalizo` (el patrón), `## Enlace academy`.
 3. **Estado del tema**: en `01-Vulnerabilidades/<Tema>.md`, sube `estado:` a `en-progreso` (o `dominado` si lo indico).
 4. **Qué generalizo**: añade 1 viñeta del patrón a la nota del tema, enlazando `[[Lab-<Tema>-NN-<slug>]]` (guiones ASCII).
 5. **Tracker (SIEMPRE)**: añade la fila en `_Tracker-<Tema>.md`.
