@@ -6,11 +6,11 @@ tags: [bscp, tipo/lab, vuln/sqli, nivel/practitioner, estado/resuelto]
 fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-oracle
 estado: resuelto
-orden: 50
+orden: 30
 fecha: 2026-09-03
 ---
 
-# SQL Injection · Lab 05 — Oracle DB version (practitioner) ✅
+# SQL Injection · Lab 03 — Oracle DB version (practitioner) ✅
 
 ## Objetivo
 Mostrar la versión/tipo de la base de datos (Oracle) mediante un ataque UNION en el filtro de categoría.

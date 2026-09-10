@@ -6,11 +6,11 @@ tags: [bscp, tipo/lab, vuln/sqli, nivel/practitioner, estado/resuelto]
 fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/lab-finding-a-column-containing-text
 estado: resuelto
-orden: 35
+orden: 90
 fecha: 2026-09-08
 ---
 
-# SQL Injection · Lab 10 — Finding a column containing text (practitioner) ✅
+# SQL Injection · Lab 09 — Finding a column containing text (practitioner) ✅
 
 ## Objetivo
 Identificar cuál de las columnas devueltas por la consulta vulnerable acepta datos de tipo texto, usando un valor aleatorio proporcionado por el lab.

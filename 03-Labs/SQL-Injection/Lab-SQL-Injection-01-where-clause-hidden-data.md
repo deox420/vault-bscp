@@ -7,7 +7,7 @@ fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/lab-retrieve-hidden-data
 estado: resuelto
 orden: 10
-fecha: 2026-09-02
+fecha: 2026-09-03
 ---
 
 # SQL Injection · Lab 01 — WHERE clause, retrieval of hidden data (apprentice) ✅

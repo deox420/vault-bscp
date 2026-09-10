@@ -6,11 +6,11 @@ tags: [bscp, tipo/lab, vuln/sqli, nivel/practitioner, estado/resuelto]
 fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/lab-retrieving-data-from-other-tables
 estado: resuelto
-orden: 40
+orden: 80
 fecha: 2026-09-08
 ---
 
-# SQL Injection · Lab 04 — Retrieving data from other tables (practitioner) ✅
+# SQL Injection · Lab 08 — Retrieving data from other tables (practitioner) ✅
 
 ## Objetivo
 Extraer datos de otras tablas de la base de datos (usuarios y contraseñas) mediante un ataque UNION.

@@ -6,11 +6,11 @@ tags: [bscp, tipo/lab, vuln/sqli, nivel/practitioner, estado/resuelto]
 fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/examining-the-database/lab-querying-database-version-mysql-microsoft
 estado: resuelto
-orden: 60
+orden: 40
 fecha: 2026-09-08
 ---
 
-# SQL Injection · Lab 06 — MySQL & Microsoft DB version (practitioner) ✅
+# SQL Injection · Lab 04 — MySQL & Microsoft DB version (practitioner) ✅
 
 ## Objetivo
 Obtener el tipo y la versión del motor de base de datos (MySQL o Microsoft SQL Server) mediante una inyección UNION en el filtro de categoría.

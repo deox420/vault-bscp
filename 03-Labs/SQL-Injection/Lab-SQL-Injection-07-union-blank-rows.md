@@ -6,11 +6,11 @@ tags: [bscp, tipo/lab, vuln/sqli, nivel/practitioner, estado/resuelto]
 fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/lab-union-blank-rows
 estado: resuelto
-orden: 30
+orden: 70
 fecha: 2026-09-08
 ---
 
-# SQL Injection · Lab 03 — UNION attack, determining the number of columns returned by the query (practitioner) ✅
+# SQL Injection · Lab 07 — UNION attack, determining the number of columns returned by the query (practitioner) ✅
 
 ## Objetivo
 Determinar el número de columnas devueltas por la consulta mediante un ataque UNION que devuelve una fila con valores `NULL`.

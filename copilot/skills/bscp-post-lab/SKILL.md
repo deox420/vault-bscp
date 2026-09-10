@@ -17,7 +17,7 @@ Cuando indico que he **resuelto** un lab, **actualiza el vault** de una vez. La 
 ## Reglas de nombres y numeración (CRÍTICO — aquí fallaba)
 - **Guiones SOLO ASCII `-`** (U+002D). **Prohibido** `‑` (no-break), `–`, `—` en nombres de fichero y en wikilinks. Los links rotos vienen de aquí.
 - **Número `NN`:** LISTA primero `03-Labs/<Tema>/` y usa el **número más alto existente + 1** (append al final). **NO reutilices huecos libres** (si se borró el `01`, el siguiente sigue siendo `máx+1`, nunca `01`) ni adivines (nada de dos labs `05`).
-- **El `NN` del fichero es solo un ID de creación.** El **orden de visualización** lo dan los campos de frontmatter `orden` (ruta de aprendizaje) y `fecha` (realización). Para **reposicionar** un lab, **edita `orden`/`fecha`**, NUNCA renombres ficheros. El tracker (Dataview) ordena por `fecha` y luego `orden`.
+- **`orden` = orden de REALIZACIÓN** (el lab nuevo, hecho el último, toma `máx orden + 10`). Como registras los labs en el orden en que los haces, el filename `NN` (máx+1) y `orden` **coinciden y van en append** — **nunca hace falta renumerar ni renombrar**. El tracker (Dataview) ordena `SORT orden ASC`.
 - El **wikilink debe coincidir EXACTAMENTE** con el nombre del fichero (mismos guiones, mismo slug).
 - **No** te auto-enlaces (no metas un "Enlace al lab" que apunte a la propia ficha).
 

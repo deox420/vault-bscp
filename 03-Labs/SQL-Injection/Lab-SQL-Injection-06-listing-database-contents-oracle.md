@@ -6,11 +6,11 @@ tags: [bscp, tipo/lab, vuln/sqli, nivel/practitioner, estado/resuelto]
 fase: [1-acceso]
 url: https://portswigger.net/web-security/sql-injection/examining-the-database/lab-listing-database-contents-oracle
 estado: resuelto
-orden: 80
+orden: 60
 fecha: 2026-09-08
 ---
 
-# SQL Injection · Lab 08 — Listing database contents on Oracle (practitioner) ✅
+# SQL Injection · Lab 06 — Listing database contents on Oracle (practitioner) ✅
 
 ## Objetivo
 Mostrar los contenidos (nombre de tablas, columnas y datos) de la base de datos Oracle mediante una vulnerabilidad SQL Injection en el filtro de categoría de productos.

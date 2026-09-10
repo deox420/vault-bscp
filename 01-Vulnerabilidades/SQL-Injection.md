@@ -28,13 +28,13 @@ Cuida los comentarios según motor (`--`, `#`, `--+`), el número exacto de colu
 ## Qué generalizo
 - Un **filtro reflejado en un `WHERE`** (categoría/estado/visibilidad) es candidato a SQLi: se inyecta para **neutralizar la condición** y revelar filas ocultas. *(Lab [[Lab-SQL-Injection-01-where-clause-hidden-data]], apprentice ✅)*
 - **Bypass de login:** cerrar la cadena, `OR 1=1` y comentar el resto (`--`) salta la comprobación de contraseña y entra como `{{TARGET_USER}}`. *(Lab [[Lab-SQL-Injection-02-login-bypass]], apprentice ✅)*
-- **UNION — nº de columnas:** `ORDER BY N` hasta el error, o `UNION SELECT NULL,NULL,…` con tantos `NULL` como columnas. *(Lab [[Lab-SQL-Injection-03-union-blank-rows]], practitioner ✅)*
-- **UNION — columna de texto:** localiza una columna que muestre texto con `UNION SELECT 'a',NULL,…` para inyectar ahí los datos. *(Lab [[Lab-SQL-Injection-10-finding-a-column-containing-text]], practitioner ✅)*
-- **UNION — datos de otras tablas:** `UNION SELECT col1,col2 FROM <tabla>` vuelca columnas de otra tabla en la respuesta visible. *(Lab [[Lab-SQL-Injection-04-retrieving-data-from-other-tables]], practitioner ✅)*
-- **Enumerar versión (Oracle):** `UNION SELECT banner,NULL FROM v$version` (Oracle exige `FROM`); nº de columnas con `ORDER BY`. *(Lab [[Lab-SQL-Injection-05-oracle-version]], practitioner ✅)*
-- **Enumerar versión (MySQL / Microsoft):** `UNION SELECT NULL, @@version` (MySQL) o `UNION SELECT NULL, @@VERSION` (Microsoft); nº de columnas con `ORDER BY`. *(Lab [[Lab-SQL-Injection-06-mysql-microsoft-version]], practitioner ✅)*
-- **Listar contenido (non-Oracle):** usar `information_schema.tables` y `information_schema.columns` con `UNION SELECT` para descubrir tablas, columnas y datos. *(Lab [[Lab-SQL-Injection-07-listing-database-contents-non-oracle]], practitioner ✅)*
-- **Listar contenido (Oracle):** usar `all_tables` y `all_tab_columns` con `UNION SELECT` para descubrir tablas, columnas y datos. *(Lab [[Lab-SQL-Injection-08-listing-database-contents-oracle]], practitioner ✅)*
+- **Enumerar versión (Oracle):** `UNION SELECT banner,NULL FROM v$version` (Oracle exige `FROM`); nº de columnas con `ORDER BY`. *(Lab [[Lab-SQL-Injection-03-oracle-version]], practitioner ✅)*
+- **Enumerar versión (MySQL / Microsoft):** `UNION SELECT NULL, @@version` (MySQL) o `UNION SELECT NULL, @@VERSION` (Microsoft); nº de columnas con `ORDER BY`. *(Lab [[Lab-SQL-Injection-04-mysql-microsoft-version]], practitioner ✅)*
+- **Listar contenido (non-Oracle):** usar `information_schema.tables` y `information_schema.columns` con `UNION SELECT` para descubrir tablas, columnas y datos. *(Lab [[Lab-SQL-Injection-05-listing-database-contents-non-oracle]], practitioner ✅)*
+- **Listar contenido (Oracle):** usar `all_tables` y `all_tab_columns` con `UNION SELECT` para descubrir tablas, columnas y datos. *(Lab [[Lab-SQL-Injection-06-listing-database-contents-oracle]], practitioner ✅)*
+- **UNION — nº de columnas:** `ORDER BY N` hasta el error, o `UNION SELECT NULL,NULL,…` con tantos `NULL` como columnas. *(Lab [[Lab-SQL-Injection-07-union-blank-rows]], practitioner ✅)*
+- **UNION — datos de otras tablas:** `UNION SELECT col1,col2 FROM <tabla>` vuelca columnas de otra tabla en la respuesta visible. *(Lab [[Lab-SQL-Injection-08-retrieving-data-from-other-tables]], practitioner ✅)*
+- **UNION — columna de texto:** localiza una columna que muestre texto con `UNION SELECT 'a',NULL,…` para inyectar ahí los datos. *(Lab [[Lab-SQL-Injection-09-finding-a-column-containing-text]], practitioner ✅)*
 
 ## Cheat sheet
 [[CS-SQLi]]

@@ -24,7 +24,7 @@ Nivel actual: **NEWBIE** → 59 labs para *Apprentice*.
 TABLE WITHOUT ID fecha AS "Fecha", file.link AS "Lab", vuln AS "Tema", nivel AS "Nivel"
 FROM "03-Labs"
 WHERE tipo = "lab" AND estado = "resuelto"
-SORT fecha DESC
+SORT orden ASC
 ```
 
 ## Estado por tema (automático)
